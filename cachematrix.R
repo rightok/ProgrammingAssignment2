@@ -1,8 +1,6 @@
 ## This script creates two functions:
 
-## functions do
-
-## This function creates a special "matrix" object that can cache its inverse.
+## 1) This function creates a special "matrix" object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -20,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function computes the inverse of the special "matrix" returned by makeCacheMatrix. 
+## 2) This function computes the inverse of the special "matrix" returned by makeCacheMatrix. 
 ## If the inverse of the matrix has been calculated previously and is cached, then the cached version will be used, otherwise
 ## it will be calculated.
 
